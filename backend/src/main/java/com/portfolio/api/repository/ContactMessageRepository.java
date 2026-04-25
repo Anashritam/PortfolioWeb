@@ -1,0 +1,10 @@
+package com.portfolio.api.repository;
+
+import com.portfolio.api.entity.ContactMessageEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.List;
+
+public interface ContactMessageRepository extends JpaRepository<ContactMessageEntity, Long> {
+    List<ContactMessageEntity> findAllByOrderByCreatedAtDesc();
+}
