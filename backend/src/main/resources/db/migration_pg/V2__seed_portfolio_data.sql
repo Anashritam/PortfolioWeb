@@ -56,4 +56,4 @@ INSERT INTO certifications (title, issuer, credential_url, issued_on, sort_order
 ('Spring Boot Foundations', 'Self Study', 'https://example.com', '2026-01-01', 0);
 
 INSERT INTO admin_users (email, password_hash, display_name, role, enabled)
-VALUES ('admin@portfolio.local', '{noop}admin123', 'Portfolio Admin', 'ADMIN', TRUE);
+VALUES ('admin@portfolio.local', '$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy', 'Portfolio Admin', 'ADMIN', TRUE);
